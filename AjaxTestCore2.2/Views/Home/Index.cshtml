@@ -100,13 +100,14 @@ function Add() {
         return false;
     }
     var empObj = {
-        Id: $('#Id').val(),
-        Name: $('#Name').val(),
+      
+        Name: $('#Name').val()
      
     };
     $.ajax({
         url: "/Home/Add",
         data: JSON.stringify(empObj),
+        async : true,
         type: "POST",
         contentType: "application/json;charset=utf-8",
         dataType: "json",

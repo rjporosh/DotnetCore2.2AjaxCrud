@@ -32,7 +32,7 @@ namespace AjaxTestCore2._2.Controllers
         {
             return Json(_context.Students.ToList());
         }
-        public JsonResult Add(Student user)
+        public JsonResult Add([FromBody]Student user)
         {
             _context.Students.Add(user);
             _context.SaveChanges();
