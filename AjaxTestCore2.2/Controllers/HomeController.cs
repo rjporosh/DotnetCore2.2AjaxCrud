@@ -42,7 +42,7 @@ namespace AjaxTestCore2._2.Controllers
         {
             return Json(_context.Students.FirstOrDefault(x => x.Id == ID));
         }
-        public JsonResult Update(Student user)
+        public JsonResult Update([FromBody]Student user)
         {
             var data = _context.Students.FirstOrDefault(x => x.Id == user.Id);
             if (data != null)

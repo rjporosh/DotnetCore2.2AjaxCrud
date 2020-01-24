@@ -12167,11 +12167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rj Porosh\\source\\repos\\AjaxTestCore2.2\\AjaxTestCore2.2\\AjaxTestCore2.2.csproj",
+      "projectUniqueName": "E:\\Asif Vai Project\\AjaxTestCore2.2\\AjaxTestCore2.2\\AjaxTestCore2.2.csproj",
       "projectName": "AjaxTestCore2.2",
-      "projectPath": "C:\\Users\\Rj Porosh\\source\\repos\\AjaxTestCore2.2\\AjaxTestCore2.2\\AjaxTestCore2.2.csproj",
+      "projectPath": "E:\\Asif Vai Project\\AjaxTestCore2.2\\AjaxTestCore2.2\\AjaxTestCore2.2.csproj",
       "packagesPath": "C:\\Users\\Rj Porosh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rj Porosh\\source\\repos\\AjaxTestCore2.2\\AjaxTestCore2.2\\obj\\",
+      "outputPath": "E:\\Asif Vai Project\\AjaxTestCore2.2\\AjaxTestCore2.2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -98,9 +98,10 @@ function Update() {
 
     $.ajax({
 
-        url: "/Home/Update" + empObj.Id + {empObj},
-        result: JSON.stringify(empObj),
+        url: "/Home/Update" ,
+        
         data: JSON.stringify(empObj),
+        async: true,
         type: "POST",
         contentType: "application/json;charset=utf-8",
         dataType: "json",
